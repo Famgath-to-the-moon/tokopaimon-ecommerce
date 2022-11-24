@@ -45,7 +45,7 @@ const NavbarComponent = () => {
 
           <Modal show={show} onHide={handleClose} centered>
             <Modal.Header closeButton>
-              <Modal.Title>Filters</Modal.Title>
+              <Modal.Title className='text-dark'>Filters</Modal.Title>
             </Modal.Header>
             <Modal.Body>
               <div className="d-flex justify-content-around">
