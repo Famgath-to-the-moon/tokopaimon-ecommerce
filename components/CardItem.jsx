@@ -4,13 +4,13 @@ import { Image } from 'react-bootstrap';
 import uwih from '../public/uwih.png';
 import styles from '../styles/CardItem.module.css'
 
-function CardItem({}) {
+function CardItem({title}) {
   return (
     <>
       <Card border="light" className={`${styles.shadow} rounded-3`}>
         <Card.Img className='rounded-3 ' as={Image} variant="top" src={uwih} fluid={true} alt="Card image" />
         <Card.Body>
-          <Card.Title>Card Title</Card.Title>
+          <Card.Title>{title}</Card.Title>
           <Card.Subtitle>
             Rp50.000
           </Card.Subtitle>
