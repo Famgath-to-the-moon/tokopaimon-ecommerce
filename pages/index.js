@@ -1,12 +1,12 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import Example from '../components/Example';
+import CardList from '../components/CardList';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
     <>
-      <Example />
+      
       <div className={styles.container}>
         <Head>
           <title>Create Next App</title>
@@ -15,6 +15,7 @@ export default function Home() {
         </Head>
 
         <main className={styles.main}>
+          <CardList/>
           <h1 className={styles.title}>
             Welcome to <a href="https://nextjs.org">Next.js!</a>
           </h1>
