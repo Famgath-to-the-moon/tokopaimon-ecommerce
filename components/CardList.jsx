@@ -11,8 +11,8 @@ function CardList({ currentItems }) {
   return (
     <>
       <Row xs={1} sm={2} md={3} lg={5} className="g-4 my-3">
-        {currentItems && currentItems.map((item) => (
-          <Col>
+        {currentItems && currentItems.map((item, idx) => (
+          <Col key={idx}>
             <CardItem title={item}/>
           </Col>
         ))}
