@@ -7,7 +7,7 @@ import styles from '../styles/CardItem.module.css'
 function CardItem({title}) {
   return (
     <>
-      <Card border="light" className={`${styles.shadow} rounded-3`}>
+      <Card className={`${styles.shadow} ${styles.lightGrey} rounded-3`}>
         <Card.Img className='rounded-3 ' as={Image} variant="top" src={uwih} fluid={true} alt="Card image" />
         <Card.Body>
           <Card.Title>{title}</Card.Title>

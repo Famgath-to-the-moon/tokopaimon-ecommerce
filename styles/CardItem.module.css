@@ -1,3 +1,8 @@
 .shadow {
-  box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+  box-shadow: rgb(0 0 0 / 12%) 0px 6px 16px;
+  /* box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important; */
+}
+
+.lightGrey {
+  border: 1px solid rgb(221, 221, 221)
 }
