@@ -8,7 +8,7 @@ function CardItem({title}) {
   return (
     <>
       <Card className={`${styles.shadow} ${styles.lightGrey} rounded-3`}>
-        <Card.Img className='rounded-3 ' as={Image} variant="top" src={uwih} fluid={true} alt="Card image" />
+        <Card.Img className='rounded-3' as={Image} variant="top" src={uwih} fluid={true} alt="Card image" />
         <Card.Body>
           <Card.Title>{title}</Card.Title>
           <Card.Subtitle>
@@ -19,8 +19,8 @@ function CardItem({title}) {
             bulk of the card's content.
           </Card.Text>
           <div className='d-grid gap-2 d-md-flex justify-content-md-end'>
-            <Button variant="primary">Beli</Button>{' '}
-            <Button variant="outline-primary">Detail</Button>
+            <Button variant="dark">Beli</Button>{' '}
+            <Button variant="outline-dark">Detail</Button>
           </div>
         </Card.Body>
       </Card>

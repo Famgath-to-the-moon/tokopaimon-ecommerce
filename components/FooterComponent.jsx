@@ -3,13 +3,13 @@ import styles from '../styles/FooterComponent.module.css';
 
 const FooterComponent = () => {
   return (
-    <footer className={`bg-secondary ${styles.footer} d-flex align-items-center`}>
+    <footer className={`bg-dark ${styles.footer} d-flex align-items-center`}>
       <Container className="d-flex justify-content-between">
         <Row>
-          <Col className='fs-6'>WireShark 2.0</Col>
+          <Col className='text-light fs-6'>WireShark 2.0</Col>
         </Row>
         <Row>
-          <Col>Famgeth 2022</Col>
+          <Col className='text-light'>Famgath 2022</Col>
         </Row>
       </Container>
     </footer>

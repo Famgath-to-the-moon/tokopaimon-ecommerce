@@ -3,6 +3,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import React, { useEffect, useState } from 'react';
 import ReactPaginate from 'react-paginate';
+import '../styles/Pagination.module.css';
 
 // ini nanti ambil dari api
 const items = [...Array(33).keys()];

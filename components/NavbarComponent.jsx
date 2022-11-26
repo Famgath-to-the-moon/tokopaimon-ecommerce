@@ -6,13 +6,14 @@ import Button from 'react-bootstrap/Button';
 const NavbarComponent = () => {
   return (
     <>
-      <Navbar className="bg-secondary d-flex flex-column border-bottom">
+      <Navbar className="bg-dark d-flex flex-column border-bottom">
         <Container fluid>
           <Navbar.Brand href="#home" className="text-light fs-2 fw-bold">
             TOKOPaimon
           </Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
+            
             {/* saat belum login */}
             <Button variant="dark" className="rounded-pill">
               Login
